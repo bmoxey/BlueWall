@@ -1,4 +1,4 @@
-<!--
+1<!--
 theme name:     Showcase
 version         1.0
 -->
@@ -11,9 +11,9 @@ version         1.0
    <view name="system">
       <carousel name="systemcarousel">
         <type>vertical</type>
-        <pos>0.735 0.020</pos>
-        <size>0.300 0.890</size>
-        <logoScale>1.4</logoScale>
+        <pos>0.35 0.0</pos>
+        <size>0.300 0.95</size>
+        <logoScale>2</logoScale>
         <logoSize>0.15 0.180</logoSize>
         <color>00000000</color>
         <maxLogoCount>5</maxLogoCount>
