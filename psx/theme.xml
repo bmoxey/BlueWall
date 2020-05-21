@@ -18,30 +18,30 @@
 			<size>1 1</size>
 			<path>./_inc/background.png</path>
 		</image>
-		   <text name="sys_line1" extra="true">
+		<text name="sys_line1" extra="true">
 			<fontPath>./../_inc/fonts/BebasNeue.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
-			    <text>Sony</text>
-    <fontSize>0.048</fontSize>
-    <origin>0 0</origin>
-    <pos>0.02 0.142</pos>
-    <size>0 0</size>
-		    </text>
-		    <text name="sys_line2" extra="true">
+			<text>Sony</text>
+			<fontSize>0.048</fontSize>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
+		</text>
+		<text name="sys_line2" extra="true">
 			<fontPath>./../_inc/fonts/BebasNeue.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
-		   <text>Playstation</text>
-    <fontSize>0.18</fontSize>
-    <origin>0 0</origin>
-    <pos>0.02 0.16</pos>
-    <size>0 0</size>
-		    </text>
+			<text>Playstation</text>
+			<fontSize>0.18</fontSize>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
 
-		    <text name="shortdescription" extra="true">
+		<text name="shortdescription" extra="true">
 			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
@@ -51,9 +51,9 @@
 			<pos>0.02 0.1055</pos>
 			<size>0.320 0.033</size>
 			<text>1994  ·  32-bit Console</text>
-		    </text>
+		</text>
 
-		    <text name="systemInfo">
+		<text name="systemInfo">
 			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
 			<alignment>left</alignment>
 			<backgroundColor>00000000</backgroundColor>
@@ -63,27 +63,27 @@
 			<pos>0.02 0.3611</pos>
 			<size>0.200 0.039</size>
 			<fontSize>0.0315</fontSize>
-		    </text>
-		    <text name="longdescription" extra="true">
+		</text>
+		<text name="longdescription" extra="true">
 			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
 			<fontSize>0.021</fontSize>
 			<color>8F8F8F</color>
-		 	<lineSpacing>1.18</lineSpacing>
+			<lineSpacing>1.18</lineSpacing>
 			<origin>0 0</origin>
 			<pos>0.02 0.360</pos>
 			<size>0.28 0.20</size>
-  <text>The Sony PlayStation primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles</text>
-		    </text>
-		    
-		    <image name="controller" extra="true">
+			<text>The Sony PlayStation primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles</text>
+		</text>
+
+		<image name="controller" extra="true">
 			<path>./_inc/controller.png</path>
 			<tile>false</tile>
 			<origin>0 0</origin>
 			<pos>0.02 0.61</pos>
 			<maxSize>0.32 0.32</maxSize>
-		    </image>
+		</image>
 	</view>
 
 </theme>

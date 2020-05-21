@@ -24,10 +24,10 @@
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
 			<text>Commodore</text>
-    <fontSize>0.048</fontSize>
-    <origin>0 0</origin>
-    <pos>0.02 0.142</pos>
-    <size>0 0</size>
+			<fontSize>0.048</fontSize>
+			<origin>0 0</origin>
+			<pos>0.02 0.142</pos>
+			<size>0 0</size>
 		</text>
 		<text name="sys_line2" extra="true">
 			<fontPath>./../_inc/fonts/BebasNeue.otf</fontPath>
@@ -35,12 +35,12 @@
 			<forceUppercase>1</forceUppercase>
 			<color>FFFFFF</color>
 
-    <text>C64</text>
-    <fontSize>0.18</fontSize>
-    <origin>0 0</origin>
-    <pos>0.02 0.16</pos>
-    <size>0 0</size>
-    </text>
+			<text>C64</text>
+			<fontSize>0.18</fontSize>
+			<origin>0 0</origin>
+			<pos>0.02 0.16</pos>
+			<size>0 0</size>
+		</text>
 
 		<text name="shortdescription" extra="true">
 			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
