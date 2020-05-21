@@ -3,18 +3,87 @@
 	<include>./../theme.xml</include>
 
 	<view name="system, basic, detailed, video">
+		<text name="nameLabel" extra="true">
+			<text>Super Nintendo</text>
+		</text>
 		<image name="logo">
 			<path>./_inc/system.png</path>
 		</image>
 	</view>
 
 	<view name="system">
-                <image name="background" extra="true">
-                   <origin>0 0</origin>
-                   <pos>0 0</pos>
-                   <size>1 1</size>
-                   <path>./_inc/background.png</path>
-                </image>
+		<image name="background" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/background.png</path>
+		</image>
+		   <text name="sys_line1" extra="true">
+			<fontPath>./../_inc/fonts/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			    <text>Super</text>
+    <fontSize>0.048</fontSize>
+    <origin>0 0</origin>
+    <pos>0.02 0.142</pos>
+    <size>0 0</size>
+		    </text>
+		    <text name="sys_line2" extra="true">
+			<fontPath>./../_inc/fonts/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			<text>Nintendo</text>
+			<fontSize>0.18</fontSize>
+			<origin>0 0</origin>
+			<pos>0.02 0.160</pos>
+			<size>0 0</size>
+		    </text>
+
+		    <text name="shortdescription" extra="true">
+			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.021</fontSize>
+			<color>9b9a9a</color>
+			<origin>0 0</origin>
+			<pos>0.02 0.1055</pos>
+			<size>0.320 0.033</size>
+			<text>1990  ·  16-bit Console</text>
+		    </text>
+
+		    <text name="systemInfo">
+			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<backgroundColor>00000000</backgroundColor>
+			<forceUppercase>1</forceUppercase>
+			<color>A3332D</color>
+			<origin>0 0</origin>
+			<pos>0.02 0.3611</pos>
+			<size>0.200 0.039</size>
+			<fontSize>0.0315</fontSize>
+		    </text>
+		    <text name="longdescription" extra="true">
+			<fontPath>./../_inc/fonts/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.021</fontSize>
+			<color>8F8F8F</color>
+		 	<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.02 0.360</pos>
+			<size>0.28 0.20</size>
+   <text>Nintendo's second home console introduced advanced graphics and sound capabilities compared with other systems at the time</text>
+		    </text>
+		    
+		    <image name="controller" extra="true">
+			<path>./_inc/controller.png</path>
+			<tile>false</tile>
+			<origin>0 0</origin>
+			<pos>0.02 0.61</pos>
+			<maxSize>0.32 0.32</maxSize>
+		    </image>
 	</view>
 
 </theme>
